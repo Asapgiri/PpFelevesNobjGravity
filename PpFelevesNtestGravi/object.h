@@ -21,4 +21,15 @@ public:
 	int i;		// temp for for;
 
 	float* allCircleVertices;
+
+	void operator = (MyObj const& obj) {
+		
+		pos = obj.pos;
+
+		m = obj.m;
+		s = obj.s;
+		v = obj.v;
+
+		allCircleVertices = obj.allCircleVertices;
+	}
 };

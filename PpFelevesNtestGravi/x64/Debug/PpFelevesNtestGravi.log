@@ -1,17 +1,12 @@
 ﻿  main.cpp
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(70,22): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(70,16): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(97,17): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(77,26): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(77,20): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(104,17): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
           with
           [
               _Rep=__int64
           ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(144,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
-          with
-          [
-              _Rep=__int64
-          ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(152,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(151,13): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
           with
           [
               _Rep=__int64
@@ -21,7 +16,7 @@ C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(159,
           [
               _Rep=__int64
           ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(168,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(166,13): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
           with
           [
               _Rep=__int64
@@ -31,7 +26,7 @@ C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(175,
           [
               _Rep=__int64
           ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(184,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(182,13): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
           with
           [
               _Rep=__int64
@@ -41,7 +36,7 @@ C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(191,
           [
               _Rep=__int64
           ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(200,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(198,13): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
           with
           [
               _Rep=__int64
@@ -51,7 +46,7 @@ C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(207,
           [
               _Rep=__int64
           ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(216,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(214,13): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
           with
           [
               _Rep=__int64
@@ -61,11 +56,25 @@ C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(223,
           [
               _Rep=__int64
           ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(231,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(230,13): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
           with
           [
               _Rep=__int64
           ]
-C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(267,34): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(239,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(246,13): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(254,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(291,34): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
   PpFelevesNtestGravi.vcxproj -> C:\Users\Mika\source\repos\PpFelevesNtestGravi\x64\Debug\PpFelevesNtestGravi.exe

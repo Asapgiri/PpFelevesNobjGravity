@@ -4,6 +4,8 @@
 
 void Nobj::create_elements(int _obj_count) {
 	obj_count = _obj_count;
+
+	objects_old = new MyObj[obj_count];
 	objects = new MyObj[obj_count];
 	//std::cout << "Creating NOBJ with " << obj_count << " elements." << std::endl;
 
@@ -20,6 +22,8 @@ void Nobj::create_elements(int _obj_count) {
 		objects[i].v.z = (double)RANDOM(OBJ_SSPEAD_MIN, OBJ_SSPEAD_MAX);
 
 		objects[i].allCircleVertices = new float[ALL_CIRCLE_VERTICES];
+
+		objects_old[i] = objects[i];
 	}
 }
 
@@ -38,6 +42,7 @@ Nobj::Nobj(unsigned int _SCREEN_WIDTH, unsigned int _SCREEN_HEIGHT) {
 }
 
 Nobj::~Nobj() {
+	delete[] objects_old;
 	delete[] objects;
 	obj_count = 0;
 }

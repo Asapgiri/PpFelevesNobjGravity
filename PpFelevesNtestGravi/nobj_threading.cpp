@@ -34,16 +34,16 @@ void RunOnThread(Nobj* p, MyObj* so, int obj_index, int objects_per_thread) {
 			so[k].F.Zeros();
 
 			for (i = 0; i < k; i++) {
-				r = so[k].pos - p->objects[i].pos;
+				r = so[k].pos - p->objects_old[i].pos;
 				stemp = r.Size();
 				e = r * (1 / stemp);
-				so[k].F += e * ((so[k].m * p->objects[i].m * g) / (stemp * stemp));
+				so[k].F += e * ((so[k].m * p->objects_old[i].m * g) / (stemp * stemp));
 			}
 			for (++i; i < objects_per_thread; i++) {
-				r = so[k].pos - p->objects[i].pos;
+				r = so[k].pos - p->objects_old[i].pos;
 				stemp = r.Size();
 				e = r * (1 / stemp);
-				so[k].F += e * ((so[k].m * p->objects[i].m * g) / (stemp * stemp));
+				so[k].F += e * ((so[k].m * p->objects_old[i].m * g) / (stemp * stemp));
 			}
 
 			so[k].v += so[k].F * (p->thread_dt / so[k].m);
@@ -95,6 +95,8 @@ void Nobj::ProgressOnThreads(double dt) {
 	print_mlog("Waiting for threads to finnish");
 	while (!thread_all_resetted) {}
 	print_mlog("All threads finnished");
+
+	SyncObjects();
 }
 
 void Nobj::CreateThreads() {

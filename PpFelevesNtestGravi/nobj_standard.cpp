@@ -25,16 +25,16 @@ void Nobj::ProgressAll(double dt) {
 	for (i = 0; i < obj_count; i++) {
 		objects[i].F.Zeros();
 		for (j = 0; j < i; j++) {
-			r = objects[i].pos - objects[j].pos;
+			r = objects_old[i].pos - objects_old[j].pos;
 			stemp = r.Size();
 			e = r * (1 / stemp);
-			objects[i].F += e * ((objects[i].m * objects[j].m * g) / (stemp * stemp));
+			objects[i].F += e * ((objects_old[i].m * objects_old[j].m * g) / (stemp * stemp));
 		}
 		for (++j; j < obj_count; j++) {
-			r = objects[i].pos - objects[j].pos;
+			r = objects_old[i].pos - objects_old[j].pos;
 			stemp = r.Size();
 			e = r * (1.0 / stemp);
-			objects[i].F += e * ((objects[i].m * objects[j].m * g) / (stemp * stemp));
+			objects[i].F += e * ((objects_old[i].m * objects_old[j].m * g) / (stemp * stemp));
 		}
 
 		objects[i].v += objects[i].F * (dt / objects[i].m);
@@ -42,6 +42,8 @@ void Nobj::ProgressAll(double dt) {
 
 		DrawCircle(objects + i);
 	}
+
+	SyncObjects();
 }
 
 
@@ -55,5 +57,12 @@ void Nobj::DrawCircle(MyObj* obj) {
 		obj->allCircleVertices[i * 3]		= SCREEN_WIDTH  / 2 + obj->pos.x / 200 + (radius * cos(i * twicePi / CIRCLE_SIDES));
 		obj->allCircleVertices[(i * 3) + 1] = SCREEN_HEIGHT / 2 + obj->pos.y / 200 + (radius * sin(i * twicePi / CIRCLE_SIDES));
 		obj->allCircleVertices[(i * 3) + 2] = 0;
+	}
+}
+
+void Nobj::SyncObjects() {
+	int i;
+	for (i = 0; i < obj_count; i++) {
+		objects_old[i] = objects[i];
 	}
 }

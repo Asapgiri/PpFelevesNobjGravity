@@ -18,4 +18,6 @@ public:
 	void operator += (double skalar);
 	void operator -= (double skalar);
 	void operator *= (double skalar);
+
+	void operator = (Vector const& obj);
 };

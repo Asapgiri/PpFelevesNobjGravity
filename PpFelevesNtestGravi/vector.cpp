@@ -71,3 +71,9 @@ void Vector::Zeros() {
 double Vector::Size() {
 	return sqrt((x * x) + (y * y) + (z * z));
 }
+
+void Vector::operator = (Vector const& obj) {
+	x = obj.x;
+	y = obj.y;
+	z = obj.z;
+}

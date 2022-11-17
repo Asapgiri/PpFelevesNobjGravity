@@ -29,6 +29,7 @@ class Nobj {
 
 public:
 	int		obj_count;
+	MyObj*  objects_old;
 	MyObj*	objects;
 
 	volatile     int	thread_count;
@@ -50,6 +51,7 @@ public:
 
 	void ProgressAll(double dt);
 	void ProgressOnThreads(double dt);
+	void SyncObjects();
 	
 	int	 N();
 

@@ -1,0 +1,96 @@
+﻿  main.cpp
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(70,22): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(70,16): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(97,17): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(144,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(152,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(159,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(168,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(175,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(184,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(191,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(200,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(207,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(216,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(223,9): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(231,5): warning C4244: '=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\main.cpp(267,34): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  nobj_creation.cpp
+  nobj_standard.cpp
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\nobj_standard.cpp(50,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\nobj_standard.cpp(53,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\nobj_standard.cpp(57,73): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\PpFelevesNtestGravi\nobj_standard.cpp(58,78): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  nobj_threading.cpp
+  vector.cpp
+main.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+main.obj : error LNK2001: unresolved external symbol __imp_glViewport
+main.obj : error LNK2001: unresolved external symbol __imp_glEnableClientState
+main.obj : error LNK2001: unresolved external symbol __imp_glClear
+main.obj : error LNK2001: unresolved external symbol __imp_glVertexPointer
+main.obj : error LNK2001: unresolved external symbol glfwGetKey
+main.obj : error LNK2001: unresolved external symbol glfwTerminate
+main.obj : error LNK2001: unresolved external symbol __imp_glDisableClientState
+main.obj : error LNK2001: unresolved external symbol __imp_glMatrixMode
+main.obj : error LNK2001: unresolved external symbol glfwPollEvents
+main.obj : error LNK2001: unresolved external symbol glfwInit
+main.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+main.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+main.obj : error LNK2001: unresolved external symbol __imp_glLoadIdentity
+main.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+main.obj : error LNK2001: unresolved external symbol __imp_glDrawArrays
+main.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+main.obj : error LNK2001: unresolved external symbol __imp_glOrtho
+C:\Users\Mika\source\repos\PpFelevesNtestGravi\x64\Release\PpFelevesNtestGravi.exe : fatal error LNK1120: 18 unresolved externals
